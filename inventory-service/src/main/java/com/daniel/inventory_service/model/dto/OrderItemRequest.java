@@ -1,4 +1,4 @@
-package com.daniel.orders_service.model.dto;
+package com.daniel.inventory_service.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,12 +9,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class OrderItemRequest {
 
-    private Long id;
+    private Integer id;
 
     private String sku;
 
     private Double price;
 
-    private Long quantity;
+    private short quantity;
 
 }
